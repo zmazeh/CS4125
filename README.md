@@ -1,3 +1,7 @@
 CS4125
 ======
-Will be uploading my code soon - Z
+Okay so I uploaded the code I've got thus far. I used the Abstract Factory Method as a design pattern for Vehicles and Drivers. Here is a link to some basics about it and how I created it. 
+
+http://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
+
+
