@@ -164,9 +164,6 @@ redCar = op.filter(redCar, null);}
 
     public void start(){
 
-       x = 0; y = 0; velX = 0; velY = 0;
-       xr = 0; yr = 0; velXr = 0; velYr = 0;
-
       velX = 2;
       velY = 0;
 
@@ -177,21 +174,6 @@ redCar = op.filter(redCar, null);}
     public void keyPressed(KeyEvent e){
         int code = e.getKeyCode();
 
-      /*  if (code == KeyEvent.VK_W){
-            up();
-        }
-
-        if (code == KeyEvent.VK_S){
-            down();
-        }
-
-        if (code == KeyEvent.VK_A){
-            left();
-        }
-
-        if (code == KeyEvent.VK_D){
-            right();
-        }*/
         if(code == KeyEvent.VK_SPACE)
         stop();
         if(code == KeyEvent.VK_ENTER)
@@ -201,20 +183,5 @@ redCar = op.filter(redCar, null);}
     public void keyTyped(KeyEvent e){}
 
     public void keyReleased(KeyEvent e){
-
-        int code = e.getKeyCode();
-
-      /*  if (code == KeyEvent.VK_W){
-            velY = 0;
-        }
-        if (code == KeyEvent.VK_S){
-            velY = 0;
-        }
-        if (code == KeyEvent.VK_A){
-            velX = 0;
-        }
-        if (code == KeyEvent.VK_D){
-            velX = 0;
-        }*/
     }
 }
