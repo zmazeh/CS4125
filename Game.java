@@ -44,14 +44,14 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 	super.paintComponent(g);
   Graphics2D g2d = (Graphics2D) g;
 
-    if(xr == 400|| xr == 100)
-    g2d.drawImage(redCar,null,xr,yr);
-    else if(yr==300|| yr == 60)
+ if(velXr == 2|| velXr == -2)
     g2d.drawImage(redCar2,null,xr,yr);
-    if(x==400|| x == 100)
-    g2d.drawImage(blue1,null,x,y);
-    else if(y==200|| y == 10)
+    else if(velYr== 2|| velYr == -2)
+    g2d.drawImage(redCar,null,xr,yr);
+    if(velX== 2|| velX == -2)
     g2d.drawImage(blue2,null,x,y);
+    else if(velY== 2|| velY == -2)
+    g2d.drawImage(blue1,null,x,y);
 
     g2d.drawImage(start,null,190,145);
     g2d.drawImage(pause,null,260,150);
